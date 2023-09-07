@@ -30,6 +30,7 @@ nav {
     top: 0;
     width: 100%;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    z-index: 99;
 }
 .nav-links a {
     text-decoration: none;
@@ -147,7 +148,7 @@ nav {
     width: 50.75rem;
 }
 
-/* fourth section */
+/* Events section */
 
 .events {
     width: 100%;
@@ -185,12 +186,6 @@ nav {
     font-size: 1.5rem;
     width: 60%;
 }
-/* .event-container {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    flex-direction: column;
-} */
 .img {
     width: 400px;
     height: 250px;
@@ -207,6 +202,9 @@ nav {
     justify-content: space-between;
     margin-top: 70px;
 }
+
+/* Mission and Vision Section */
+
 .urs {
     display: flex;
     flex-direction: column;
