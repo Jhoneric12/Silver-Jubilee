@@ -18,6 +18,30 @@ body {
     position: relative;
 }
 
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: var(--third);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+#myBtn:hover {
+    transform: scale(1.1);
+    box-shadow:  0 1px 1px 0 var(--third),0 1px 5px 0 var(--third   );
+}
+
+
+
 /* Nav Bar */
 
 nav {
@@ -236,4 +260,51 @@ nav {
     font-size: 1.5rem;
     margin-top: 40px;
     font-style: italic;
+}
+
+
+/* Mobile Responsiveness */
+
+@media only screen and (max-width: 600px) {
+    nav {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    nav .links{
+        display: none;
+    }
+    .headings img {
+        width: 28rem;
+    }
+    .urs-details p {
+        font-size: 1rem;
+    }
+    .title, .par {
+        font-size: 1.1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .images-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+    .images-container img {
+        width: 12.5rem;
+        height: 6.25rem;
+    }
+    .urs {
+        padding: 3.125rem 3.75rem;
+    }
+    .urs h1, .tile {
+        font-size: 1rem;
+    }
+    .info p {
+        font-size: 1rem;
+    }
+    .title-image {
+        width: 25rem;
+    }
 }
