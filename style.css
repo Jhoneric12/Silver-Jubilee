@@ -262,6 +262,94 @@ nav {
     font-style: italic;
 }
 
+.memberss {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--primary-color);  
+    /* padding: 50px 0;   */
+}
+
+.headerss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.mell {
+    width: 250px;
+    height: 90px
+}
+
+.desc {
+    font-size: 24px;
+    width: 60%;
+    color: var(--secondary-color);
+    text-align: center;
+    line-height: 40px;
+    font-weight: 24px;
+    font-style: italic;
+}
+
+/* .sila h1 {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+    font-weight: 700;
+    padding-top: 30px;
+    font-size: 32px;
+
+} */
+.mem-container img {
+    width: 230px;
+    height:  370px;    
+}
+.mem-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+.mem-container .images {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* About the subject */
+
+.about-subject {
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+}
+.first-division {
+    padding: 100px 50px;
+    width: 40%;
+}
+.first-division .fd {
+    
+    border-right: 1px solid rgba(0,0,0,0.3);
+}
+.second-division {
+    text-align: center;
+    padding: 0 60px;
+    width: 60%;
+}
+.second-division p {
+    font-size: 24px;
+    line-height: 40px;
+}
+.second-division h1 {
+    font-size: 34px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+
+
 
 /* Mobile Responsiveness */
 
