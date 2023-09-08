@@ -15,6 +15,7 @@
     font-family: 'Lato';
     letter-spacing: 1px;
 }
+
 body {
     position: relative;
 }
@@ -346,6 +347,88 @@ nav {
     font-size: 34px;
     margin-bottom: 40px;
     font-weight: 700;
+}
+
+/* footer */
+
+footer {
+    max-width: 100%;
+    display: flex;
+    padding: 120px 60px;
+    background-color: var(--primary-color);
+}
+footer .card {
+    background-color: var(--primary-color);
+    border-radius: 0;
+    width: 25%;
+    padding: 0 60px;
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo img {
+    width: 246px;
+    height: 46px;
+    margin-bottom: 30px;
+
+}
+.urs-description p{
+    font-size: 0.813rem;
+    width: 100%;
+    color: var(--secondary-color);
+    font-weight: 300;
+}
+.footer-title h1 {
+    font-size: 0.688rem;
+    color: var(--secondary-color);
+    font-weight: 700;
+    margin-bottom: 35px;
+    padding: 10px 0;
+}
+.urs-edu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 0.813rem;
+}
+.urs-edu a:hover {
+    text-decoration: underline;
+}
+.urs-links {
+    padding: 40px 0;
+}
+.add, .Binangonan {
+    color: var(--secondary-color);
+    font-weight: 300;
+}
+.address .add {
+    font-size: 0.688rem;
+}
+.Binangonan {
+    font-size: 0.813rem;
+}
+.address {
+    margin-top: 35px;
+}
+.urs-edu-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.urs-css {
+    border-right: none;
+}
+.urs-css img {
+    width: 250px;
+    height: 200px;
+}
+.urs-css div {
+    max-width: 100%;
+    margin-left: 60px;
 }
 
 
