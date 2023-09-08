@@ -263,17 +263,17 @@ nav {
 }
 
 .memberss {
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     background-color: var(--primary-color);  
-    /* padding: 50px 0;   */
+    padding: 50px 0;  
 }
 
 .headerss {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 .mell {
