@@ -13,6 +13,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lato';
+    letter-spacing: 1px;
 }
 body {
     position: relative;
@@ -39,8 +40,6 @@ body {
     transform: scale(1.1);
     box-shadow:  0 1px 1px 0 var(--third),0 1px 5px 0 var(--third   );
 }
-
-
 
 /* Nav Bar */
 
@@ -182,10 +181,10 @@ nav {
     background-color: var(--primary-color);
     background-position: right;
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
     justify-content: center;
     flex-direction: column;
-    padding: 40px 100px;
+    padding: 100px 100px;
 }
 .second {
     background-position: left;
@@ -225,6 +224,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
+    max-width: 100%;
 }
 
 /* Mission and Vision Section */
@@ -309,7 +309,7 @@ nav {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 40px 20px;
-    width: 100%;
+    max-width: 100%;
     margin-top: 30px;
 }
 .mem-container .images {
