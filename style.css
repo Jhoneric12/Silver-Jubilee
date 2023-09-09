@@ -474,6 +474,10 @@ footer .card {
     nav .links{
         display: none;
     }
+    .seconds {
+        padding: 400px 0;
+
+    }
     .headings img {
         width: 28rem;
     }
@@ -481,7 +485,7 @@ footer .card {
         font-size: 1rem;
     }
     .title, .par {
-        font-size: 1.1rem;
+        font-size: 1rem;
         width: 100%;
         text-align: center;
     }
@@ -507,4 +511,36 @@ footer .card {
     .title-image {
         width: 25rem;
     }
+    .desc {
+        font-size: 1rem;
+    }
+    .images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+    .first-division {
+        display: none;
+    }
+    .second-division p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .second-division h1 {
+        font-size: 2rem;
+    }
+    .second-division {
+        width: 100%;
+        padding: 0;
+    }
+    .about-subject {
+        padding: 200px 60px;
+        display: flex;
+        justify-content: center;
+    }
+    footer {
+        display: none;
+    }
+
 }
