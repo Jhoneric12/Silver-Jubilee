@@ -301,9 +301,14 @@ nav {
     font-size: 32px;
 
 } */
+.mem-container img:hover {
+    transform: translate(0, -10px);
+    cursor: pointer;
+}
 .mem-container img {
     width: 230px;
-    height:  370px;    
+    height:  370px; 
+    transition: 0.3s;   
 }
 .mem-container {
     display: flex;
@@ -354,7 +359,7 @@ nav {
 footer {
     max-width: 100%;
     display: flex;
-    padding: 120px 60px;
+    padding: 70px 60px;
     background-color: var(--primary-color);
 }
 footer .card {
@@ -388,13 +393,24 @@ footer .card {
     margin-bottom: 35px;
     padding: 10px 0;
 }
-.urs-edu a {
+.urs-edu {
+    max-width: 100%;
+}
+.soc-urs-edu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+}
+.urs-edu a, .soc-urs-edu a {
     text-decoration: none;
     color: white;
     font-weight: 300;
     font-size: 0.813rem;
+    text-align: left;
 }
-.urs-edu a:hover {
+.urs-edu a:hover, .soc-urs-edu a:hover {
     text-decoration: underline;
 }
 .urs-links {
@@ -437,7 +453,7 @@ footer .card {
     font-weight: 300;
 }
 .copyrights {
-    padding: 10px 0;
+    padding: 20px 0;
     background-color: #000E89;
     border-top: 1px solid rgba(255,255,255,0.2);
 }
